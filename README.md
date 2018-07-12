@@ -5,6 +5,8 @@ project. Use it along with one of our editor integrations for
 [Atom][atom-import-js], [Emacs][emacs-import-js], [Sublime][sublime-import-js],
 [Vim][vim-import-js], or [VS Code][vs-code-import-js].
 
+> This is a fork of import-js with support for TypeScript.
+
 ![Demo of ImportJS in action](https://raw.github.com/galooshi/import-js/master/import-js-demo.gif)
 
 ## Editor support

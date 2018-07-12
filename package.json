@@ -1,10 +1,10 @@
 {
-  "name": "import-js",
-  "version": "3.0.0",
-  "description": "Simplifies importing JavaScript modules",
+  "name": "import-ts",
+  "version": "4.0.0",
+  "description": "Simplifies importing JavaScript & TypeScript modules (fork of import-js with support for TypeScript).",
   "bin": {
-    "importjs": "./bin/importjs.js",
-    "importjsd": "./bin/importjsd.js"
+    "importts": "./bin/importts.js",
+    "importtsd": "./bin/importtsd.js"
   },
   "main": "build/main.js",
   "scripts": {
@@ -21,12 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/galooshi/import-js.git"
+    "url": "git+https://github.com/williamboman/import-ts.git"
   },
   "keywords": [
     "es6",
     "commonjs",
     "es2015",
+    "ts",
+    "typescript",
     "importing"
   ],
   "author": "Henric Trotzig",
@@ -35,13 +37,17 @@
       "name": "Joe Lencioni",
       "email": "joe.lencioni@gmail.com",
       "url": "https://twitter.com/lencioni"
+    },
+    {
+      "name": "William Boman",
+      "email": "william@redwill.se"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/galooshi/import-js/issues"
+    "url": "https://github.com/williamboman/import-ts/issues"
   },
-  "homepage": "https://github.com/galooshi/import-js#readme",
+  "homepage": "https://github.com/williamboman/import-ts#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
