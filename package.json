@@ -1,6 +1,6 @@
 {
   "name": "import-ts",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Simplifies importing JavaScript & TypeScript modules (fork of import-js with support for TypeScript).",
   "bin": {
     "importts": "./bin/importts.js",
